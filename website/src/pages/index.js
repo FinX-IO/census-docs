@@ -19,7 +19,7 @@ function HomepageHeader(props) {
       <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
       {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
       <Link to="/intro">
-        <button className={styles.button}>A Gentle Introduction to Arbitrum</button>
+        <button className={styles.button}>FinX Census</button>
       </Link>
     </header>
   );

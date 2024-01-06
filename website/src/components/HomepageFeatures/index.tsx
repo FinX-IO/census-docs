@@ -12,6 +12,12 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
+    title: 'Quickstart: FinX Census',
+    Svg: require('@site/static/img/stylus-logo.svg').default,
+    href: '/census/census-quickstart',
+    description: 'Use FinX Census to create a Structured Financial Product (an EVM-compatible smart contract in Rust).',
+  },
+  {
     title: 'Quickstart: Stylus',
     Svg: require('@site/static/img/stylus-logo.svg').default,
     href: '/stylus/stylus-quickstart',
